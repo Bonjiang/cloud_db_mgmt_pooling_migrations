@@ -31,7 +31,7 @@ class MedicalRecord(Base):
 
 ### Part 2 - initial sqlalchemy-engine to connect to db:
 
-engine = create_engine("mysql+pymysql://mig:Bonnie123@bonniemigrations-test.mysql.database.azure.com/bonnie",
+engine = create_engine("mysql+pymysql://user:password@server/database",
                          connect_args={'ssl': {'ssl-mode': 'preferred'}},
                          )
 
