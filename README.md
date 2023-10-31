@@ -67,4 +67,4 @@ or if you then want to save it:
 
 6. check the database
 
-Many files popped up when I proceeded with these steps. I also faced an error when creating tables. But, I resolved it by adding the "#" in the env.py file to be "#target_metadata = None". This worked! Then, I modified my table to include a column of "is_deceased", "is_deceased = Column(String(30), nullable=False)". This is shown in my gcp.py file.
+Many files popped up when I proceeded with these steps. I also faced an error when creating tables. But, I resolved it by adding the "#" in the env.py file to be "#target_metadata = None". This worked! Then, I modified my table to include a column of "is_deceased", "is_deceased = Column(String(30), nullable=False)". This is shown in my gcp.py file. ERROR pic shown in my ERRORS folder as "Migrations Error"
